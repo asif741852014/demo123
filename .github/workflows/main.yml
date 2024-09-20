@@ -20,6 +20,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: print c
         run: echo printed c
-      - run: exit 1
+      - run: exit 0
       - name: print d
         run: echo printed d
